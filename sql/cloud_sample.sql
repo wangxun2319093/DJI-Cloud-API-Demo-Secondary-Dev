@@ -534,6 +534,36 @@ CREATE TABLE `wayline_job` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COMMENT='Wayline mission information of the dock.';
 
 
+# manage_map
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `manage_map`;
+
+CREATE TABLE `manage_map` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `map_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'uuid',
+  `map_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '地图名称',
+  `workspace_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '工作区ID',
+  `user_id` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户ID',
+  `username` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT '用户名',
+  `map_format` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '地图格式: 3dtiles/terrain',
+  `object_key` varchar(1000) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'MinIO存储路径',
+  `min_longitude` decimal(18,14) DEFAULT NULL COMMENT '最小经度',
+  `max_longitude` decimal(18,14) DEFAULT NULL COMMENT '最大经度',
+  `min_latitude` decimal(17,14) DEFAULT NULL COMMENT '最小纬度',
+  `max_latitude` decimal(17,14) DEFAULT NULL COMMENT '最大纬度',
+  `center_longitude` decimal(18,14) DEFAULT NULL COMMENT '中心经度',
+  `center_latitude` decimal(17,14) DEFAULT NULL COMMENT '中心纬度',
+  `file_size` bigint DEFAULT 0 COMMENT '文件大小(字节)',
+  `status` tinyint(1) NOT NULL DEFAULT 0 COMMENT '状态: 0-处理中, 1-可用, 2-失败',
+  `create_time` bigint NOT NULL,
+  `update_time` bigint NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `map_id_UNIQUE` (`map_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COMMENT='DSM地图管理表';
+
+
+
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

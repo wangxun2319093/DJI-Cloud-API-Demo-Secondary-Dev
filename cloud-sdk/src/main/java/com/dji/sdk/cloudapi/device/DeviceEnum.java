@@ -76,6 +76,10 @@ public enum DeviceEnum {
     M3D_CAMERA(DeviceDomainEnum.PAYLOAD, DeviceTypeEnum.M3D_CAMERA, DeviceSubTypeEnum.ZERO),
 
     M3TD_CAMERA(DeviceDomainEnum.PAYLOAD, DeviceTypeEnum.M3TD_CAMERA, DeviceSubTypeEnum.ZERO),
+
+    M4E(DeviceDomainEnum.DRONE, DeviceTypeEnum.M4E, DeviceSubTypeEnum.ZERO),
+
+    RC_PLUS_2(DeviceDomainEnum.REMOTER_CONTROL, DeviceTypeEnum.RC_PLUS_2, DeviceSubTypeEnum.ZERO),
     ;
 
     @Schema(enumAsRef = true)

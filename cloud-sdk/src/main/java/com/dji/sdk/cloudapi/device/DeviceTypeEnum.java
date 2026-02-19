@@ -61,11 +61,19 @@ public enum DeviceTypeEnum {
 
     DOCK2(2),
 
+    UNKNOWN(8),
+    
+    UNKNOWN1(84),
+
     M3D(91),
 
     M3D_CAMERA(80),
 
     M3TD_CAMERA(81),
+
+    M4E(99),
+
+    RC_PLUS_2(174),
     ;
 
     private final int type;

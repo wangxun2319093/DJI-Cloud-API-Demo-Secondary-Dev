@@ -1,0 +1,913 @@
+2026-02-13 21:24:45.748  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:45:46.273 DEBUG 841254 --- [http-nio-6789-exec-3] c.d.s.c.w.config.AuthPrincipalHandler    : token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ3b3Jrc3BhY2VfaWQiOiJlM2RlYTBmNS0zN2YyLTRkNzktYWU1OC00OTBhZjMyMjgwNjkiLCJzdWIiOiJDbG91ZEFwaVNhbXBsZSIsInVzZXJfdHlwZSI6IjEiLCJuYmYiOjE3NzEwMDAyMTgsImxvZyI6IkxvZ2dlcltjb20uZGppLnNhbXBsZS5jb21tb24ubW9kZWwuQ3VzdG9tQ2xhaW1dIiwiaXNzIjoiREpJIiwiaWQiOiJhMTU1OWU3Yy04ZGQ4LTQ3ODAtYjk1Mi0xMDBjYzQ3OTdkYTIiLCJleHAiOjE3NzEwODY2MTgsImlhdCI6MTc3MTAwMDIxOCwidXNlcm5hbWUiOiJhZG1pblBDIn0.ZJ3PxbOHfd6GIUtIM6wucdNZf7a6-AsgnL5Llldp53M
+2026-02-14 01:45:33.282 DEBUG 841254 --- [http-nio-6789-exec-5] c.d.s.c.w.config.AuthPrincipalHandler    : token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ3b3Jrc3BhY2VfaWQiOiJlM2RlYTBmNS0zN2YyLTRkNzktYWU1OC00OTBhZjMyMjgwNjkiLCJzdWIiOiJDbG91ZEFwaVNhbXBsZSIsInVzZXJfdHlwZSI6IjEiLCJuYmYiOjE3NzEwMDAyMTgsImxvZyI6IkxvZ2dlcltjb20uZGppLnNhbXBsZS5jb21tb24ubW9kZWwuQ3VzdG9tQ2xhaW1dIiwiaXNzIjoiREpJIiwiaWQiOiJhMTU1OWU3Yy04ZGQ4LTQ3ODAtYjk1Mi0xMDBjYzQ3OTdkYTIiLCJleHAiOjE3NzEwODY2MTgsImlhdCI6MTc3MTAwMDIxOCwidXNlcm5hbWUiOiJhZG1pblBDIn0.ZJ3PxbOHfd6GIUtIM6wucdNZf7a6-AsgnL5Llldp53M
+2026-02-14 01:45:23.134 DEBUG 841254 --- [http-nio-6789-exec-6] c.d.s.c.w.config.AuthPrincipalHandler    : token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ3b3Jrc3BhY2VfaWQiOiJlM2RlYTBmNS0zN2YyLTRkNzktYWU1OC00OTBhZjMyMjgwNjkiLCJzdWIiOiJDbG91ZEFwaVNhbXBsZSIsInVzZXJfdHlwZSI6IjEiLCJuYmYiOjE3NzEwMDAyMTgsImxvZyI6IkxvZ2dlcltjb20uZGppLnNhbXBsZS5jb21tb24ubW9kZWwuQ3VzdG9tQ2xhaW1dIiwiaXNzIjoiREpJIiwiaWQiOiJhMTU1OWU3Yy04ZGQ4LTQ3ODAtYjk1Mi0xMDBjYzQ3OTdkYTIiLCJleHAiOjE3NzEwODY2MTgsImlhdCI6MTc3MTAwMDIxOCwidXNlcm5hbWUiOiJhZG1pblBDIn0.ZJ3PxbOHfd6GIUtIM6wucdNZf7a6-AsgnL5Llldp53M
+2026-02-14 01:45:22.943 DEBUG 841254 --- [http-nio-6789-exec-10] c.dji.sample.component.AuthInterceptor   : request uri: /manage/api/v1/devices/e3dea0f5-37f2-4d79-ae58-490af3228069/devices, IP: 10.39.31.246
+2026-02-13 21:31:04.060  INFO 841254 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 1 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 10]
+2026-02-13 21:29:45.808  INFO 841254 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /118.195.150.246:6004
+2026-02-14 01:46:06.306  INFO 841254 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to 118.195.150.246:6004
+2026-02-14 01:46:06.451 DEBUG 841254 --- [http-nio-6789-exec-3] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is connected. ID: 61807f07-a291-a188-e940-f99d5c815d0f. WebSocketSession[current count: 3]
+2026-02-14 01:46:06.452 DEBUG 841254 --- [http-nio-6789-exec-6] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is connected. ID: 4fb07134-b743-7f1b-c81e-78e045b94107. WebSocketSession[current count: 3]
+2026-02-14 01:46:06.453 DEBUG 841254 --- [http-nio-6789-exec-5] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is connected. ID: 5b502767-e25e-407d-d449-1e6aa799baaf. WebSocketSession[current count: 3]
+2026-02-14 01:46:06.520 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IDeviceMapper.selectList     : ==>  Preparing: SELECT id,device_sn,device_name,workspace_id,device_type,sub_type,domain,version,device_index,child_sn,create_time,update_time,device_desc,url_normal,url_select,user_id,nickname,firmware_version,compatible_status,bound_status,bound_time,login_time FROM manage_device WHERE ((domain = ? OR domain = ?) AND workspace_id = ?)
+2026-02-14 01:46:06.520 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IDeviceMapper.selectList     : ==> Parameters: 2(Integer), 3(Integer), e3dea0f5-37f2-4d79-ae58-490af3228069(String)
+2026-02-14 01:46:06.525 DEBUG 841254 --- [http-nio-6789-exec-3] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is disconnected. ID: 61807f07-a291-a188-e940-f99d5c815d0f. WebSocketSession[current count: 2]
+2026-02-14 01:46:06.525 DEBUG 841254 --- [http-nio-6789-exec-5] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is disconnected. ID: 5b502767-e25e-407d-d449-1e6aa799baaf. WebSocketSession[current count: 1]
+2026-02-14 01:46:06.525 DEBUG 841254 --- [http-nio-6789-exec-6] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is disconnected. ID: 4fb07134-b743-7f1b-c81e-78e045b94107. WebSocketSession[current count: 0]
+2026-02-14 01:46:06.552 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IDeviceMapper.selectList     : <==      Total: 2
+2026-02-14 01:46:06.552 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IWorkspaceMapper.selectOne   : ==>  Preparing: SELECT id,workspace_id,workspace_name,workspace_desc,platform_name,create_time,update_time,bind_code FROM manage_workspace WHERE (workspace_id = ?)
+2026-02-14 01:46:06.552 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IWorkspaceMapper.selectOne   : ==> Parameters: e3dea0f5-37f2-4d79-ae58-490af3228069(String)
+2026-02-14 01:46:06.584 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.dao.IWorkspaceMapper.selectOne   : <==      Total: 1
+2026-02-14 01:46:06.584 ERROR 841254 --- [http-nio-6789-exec-10] c.d.s.m.service.impl.DeviceServiceImpl   : com.dji.sdk.cloudapi.device.DeviceTypeEnum has unknown data: [174]Entity: DeviceEntity(id=27, deviceSn=9N9CN370012Z1X, deviceName=DJI RC Plus 2, workspaceId=e3dea0f5-37f2-4d79-ae58-490af3228069, deviceType=174, subType=0, domain=2, version=1.2.0, deviceIndex=A, childSn=1581F7FVC253400D4Y01, createTime=1768647866105, updateTime=1769425509261, deviceDesc=, urlNormal=, urlSelect=, userId=be7c6c3d-afe9-4be4-b9eb-c55066c0915t, nickname=DJI RC Plus 2, firmwareVersion=01.64.0709, compatibleStatus=true, boundStatus=true, boundTime=1769393687824, loginTime=1769425508706)
+2026-02-14 01:46:06.621 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.d.I.selectOne                    : ==>  Preparing: SELECT * from ( select a.*, group_concat(b.device_name) device_name from manage_device_firmware a join manage_firmware_model b on a.firmware_id = b.firmware_id and b.device_name = ? group by firmware_id ) c WHERE (status = ?) ORDER BY release_date DESC,firmware_version DESC limit 1
+2026-02-14 01:46:06.621 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.d.I.selectOne                    : ==> Parameters: DJI RC Plus 2(String), true(Boolean)
+2026-02-14 01:46:06.653 DEBUG 841254 --- [http-nio-6789-exec-10] c.d.s.m.d.I.selectOne                    : <==      Total: 0
+2026-02-14 01:46:06.780  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:07.256  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:07.731  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:08.207  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:08.680  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:09.156  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:09.630  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:10.106  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:10.581  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:11.056  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:11.531  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:12.003  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:12.478  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:12.956  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:13.432  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:13.907  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:14.380  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:14.855  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:15.338  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:15.825  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:16.295  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:16.767  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:17.241  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:17.714  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:18.187  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:18.664  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:19.138  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:19.614  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:20.093  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:20.573  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:21.045  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:21.522  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:21.996  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:22.471  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:22.945  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:23.419  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:23.895  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:24.368  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:24.842  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:25.316  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:25.792  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:26.265  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:26.740  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:27.215  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:27.688  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:27.725 DEBUG 841254 --- [http-nio-6789-exec-8] c.d.s.c.w.config.AuthPrincipalHandler    : token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ3b3Jrc3BhY2VfaWQiOiJlM2RlYTBmNS0zN2YyLTRkNzktYWU1OC00OTBhZjMyMjgwNjkiLCJzdWIiOiJDbG91ZEFwaVNhbXBsZSIsInVzZXJfdHlwZSI6IjEiLCJuYmYiOjE3NzEwMDAyMTgsImxvZyI6IkxvZ2dlcltjb20uZGppLnNhbXBsZS5jb21tb24ubW9kZWwuQ3VzdG9tQ2xhaW1dIiwiaXNzIjoiREpJIiwiaWQiOiJhMTU1OWU3Yy04ZGQ4LTQ3ODAtYjk1Mi0xMDBjYzQ3OTdkYTIiLCJleHAiOjE3NzEwODY2MTgsImlhdCI6MTc3MTAwMDIxOCwidXNlcm5hbWUiOiJhZG1pblBDIn0.ZJ3PxbOHfd6GIUtIM6wucdNZf7a6-AsgnL5Llldp53M
+2026-02-14 01:46:27.872 DEBUG 841254 --- [http-nio-6789-exec-8] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is connected. ID: 9cc33068-5cb8-26a4-5573-2088631390fa. WebSocketSession[current count: 1]
+2026-02-14 01:46:28.163  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:28.639  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:29.115  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:29.585  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:30.059  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:30.535  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:31.009  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:31.481  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:31.956  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:32.432  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:32.907  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:33.382  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:33.857  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:34.331  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:34.806  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:35.281  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:35.762  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:36.246  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:36.722  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:37.195  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:37.667  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:38.138  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:38.608  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:39.083  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:39.555  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:40.029  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:40.505  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:40.980  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:41.455  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:41.930  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:42.408  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:42.881  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:43.356  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:43.829  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:44.301  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:44.775  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:45.249  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:45.725  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:46.201  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:46.671  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:47.147  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:47.621  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:48.095  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:48.570  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:49.042  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:49.517  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:49.990  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:50.460  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:50.933  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:51.407  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:51.881  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:52.355  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:52.834  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:53.313  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:53.787  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:54.262  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:54.736  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:55.209  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:55.683  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:56.157  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:56.628  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:57.101  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:57.574  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:58.050  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:58.526  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:59.000  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:59.476  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:46:59.953  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:00.425  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:00.902  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:01.384  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:01.856  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:02.330  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:02.800  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:03.277  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:03.749  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:04.220  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:04.693  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:05.163  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:05.638  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:06.110  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:06.581  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:07.054  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:07.524  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:07.997  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:08.469  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:08.943  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:09.414  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:09.887  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:10.361  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:10.835  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:11.310  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:11.786  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:12.259  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:12.734  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:13.208  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:13.683  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:14.158  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:14.633  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:15.109  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:15.585  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:16.058  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:16.533  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:17.007  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:17.483  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:17.957  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:18.430  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:18.906  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:19.380  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:19.859  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:20.350  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:20.820  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:21.294  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:21.766  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:22.238  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:22.715  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:23.189  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:23.662  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:24.135  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:24.609  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:25.082  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:25.558  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:26.030  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:26.504  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:26.976  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:27.448  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:27.919  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:28.392  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:28.873  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:29.342  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:29.812  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:30.286  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:30.760  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:31.237  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:31.714  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:32.187  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:32.658  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:33.131  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:33.603  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:34.076  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:34.550  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:35.023  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:35.498  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:35.972  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:36.448  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:36.922  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:37.395  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:37.867  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:38.344  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:38.815  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:39.288  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:39.759  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:40.230  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:40.704  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:41.178  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:41.651  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:42.124  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:42.597  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:43.071  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:43.550  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:44.024  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:44.506  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:44.986  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:45.461  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:45.936  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:46.412  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:46.887  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:47.361  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:47.834  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:48.307  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:48.779  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:49.251  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:49.724  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:50.199  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:50.673  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:51.144  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:51.617  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:52.093  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:52.567  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:53.039  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:53.512  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:53.985  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:54.460  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:54.934  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:55.409  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:55.883  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:56.359  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:56.833  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:57.308  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:57.779  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:58.255  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:58.730  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:59.205  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:47:59.679  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:00.155  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:00.628  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:01.102  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:01.577  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:02.052  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:02.526  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:02.998  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:03.472  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:03.947  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:04.420  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:04.894  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:05.368  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:05.838  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:06.311  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:06.786  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:07.261  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:07.736  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:08.212  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:08.687  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:09.162  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:09.635  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:10.111  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:10.585  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:11.069  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:11.547  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:12.020  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:12.497  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:12.972  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:13.442  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:13.917  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:14.392  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:14.866  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:15.341  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:15.819  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:16.294  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:16.767  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:17.242  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:17.715  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:18.187  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:18.660  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:19.135  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:19.607  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:20.081  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:20.558  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:21.031  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:21.503  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:21.977  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:22.447  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:22.922  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:23.396  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:23.870  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:24.346  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:24.817  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:25.290  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:25.760  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:26.230  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:26.704  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:27.178  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:27.658  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:28.130  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:28.605  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:29.082  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:29.554  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:30.029  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:30.500  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:30.975  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:31.449  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:31.922  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:32.395  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:32.866  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:33.337  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:33.811  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:34.287  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:34.757  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:35.231  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:35.703  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:36.182  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:36.654  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:37.134  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:37.606  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:38.085  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:38.569  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:39.049  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:39.520  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:39.999  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:40.473  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:40.944  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:41.418  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:41.890  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:42.360  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:42.838  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:43.327  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:43.799  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:44.272  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:44.746  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:45.215  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:45.682  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:46.151  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:46.620  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:47.094  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:47.568  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:48.041  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:48.518  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:48.988  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:49.462  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:49.933  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:50.406  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:50.878  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:51.356  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:51.826  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:52.299  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:52.772  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:53.245  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:53.721  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:54.201  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:54.676  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:55.153  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:55.637  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:56.111  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:56.587  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:57.060  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:57.533  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:58.009  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:58.483  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:58.955  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:59.431  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:48:59.905  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:00.380  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:00.853  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:01.329  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:01.808  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:02.282  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:02.757  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:03.232  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:03.706  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:04.179  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:04.648  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:05.121  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:05.595  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:06.069  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:06.545  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:07.017  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:07.492  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:07.966  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:08.440  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:08.913  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:09.386  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:09.861  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:10.336  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:10.810  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:11.288  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:11.764  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:12.238  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:12.711  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:13.185  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:13.658  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:14.132  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:14.607  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:15.080  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:15.555  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:16.024  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:16.497  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:16.974  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:17.449  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:17.923  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:18.399  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:18.876  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:19.352  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:19.826  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:20.300  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:20.774  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:21.250  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:21.726  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:22.212  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:22.686  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:23.164  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:23.635  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:24.104  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:24.575  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:25.049  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:25.524  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:25.996  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:26.472  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:26.942  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:27.418  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:27.893  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:28.367  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:28.842  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:29.317  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:29.790  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:30.263  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:30.738  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:31.215  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:31.692  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:32.166  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:32.647  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:33.122  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:33.595  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:34.070  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:34.546  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:35.022  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:35.497  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:35.971  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:36.448  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:36.923  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:37.399  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:37.871  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:38.346  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:38.825  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:39.303  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:39.778  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:40.253  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:40.729  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:41.214  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:41.695  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:42.167  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:42.641  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:43.130  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:43.603  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:44.074  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:44.549  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:45.026  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:45.499  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:45.972  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:46.448  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:46.923  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:47.399  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:47.874  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:48.348  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:48.820  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:49.293  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:49.766  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:50.242  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:50.718  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:51.194  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:51.668  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:52.141  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:52.617  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:53.093  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:53.568  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:54.044  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:54.523  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:54.997  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:55.469  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:55.950  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:56.425  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:56.900  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:57.375  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:57.851  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:58.327  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:58.801  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:59.275  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:49:59.750  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:00.223  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:00.698  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:01.173  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:01.652  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:02.126  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:02.600  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:03.077  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:03.551  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:04.032  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:04.510  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:04.988  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:05.473  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:05.945  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:06.426  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:06.900  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:07.373  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:07.848  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:08.323  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:08.797  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:09.270  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:09.744  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:10.218  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:10.692  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:11.167  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:11.641  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:12.118  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:12.593  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:13.068  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:13.541  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:14.014  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:14.488  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:14.977  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:15.454  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:15.930  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:16.402  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:16.879  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:17.351  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:17.827  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:18.301  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:50:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:51:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:51:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:52:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:52:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:53:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:53:45.765  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:54:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:54:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:55:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:55:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:56:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:56:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:57:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:57:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:58:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:58:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:59:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 01:59:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:00:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:00:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:01:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:01:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:02:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:02:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:03:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:03:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:04:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:04:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:05:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:05:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:06:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:06:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:07:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:07:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:08:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:08:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:09:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:09:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:10:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:10:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:11:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:11:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:12:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:12:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:13:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:13:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:14:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:14:45.755  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:15:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:15:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:16:06.183  INFO 841254 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 4 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 11]
+2026-02-14 02:16:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:16:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:17:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:17:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:18:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:18:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:19:15.755  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:19:45.752  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:20:15.758  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:20:45.752  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:21:15.752  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:21:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:22:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:22:45.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:23:15.753  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:23:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:24:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:24:45.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:25:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:25:45.755  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:26:13.314  INFO 841254 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2026-02-14 02:26:13.314  INFO 841254 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@602e7a9e]]
+2026-02-14 02:26:13.314  INFO 841254 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2026-02-14 02:26:13.396 DEBUG 841254 --- [SpringApplicationShutdownHook] c.d.s.c.w.config.MyWebSocketHandler      : e3dea0f5-37f2-4d79-ae58-490af3228069/1/a1559e7c-8dd8-4780-b952-100cc4797da2 is disconnected. ID: 9cc33068-5cb8-26a4-5573-2088631390fa. WebSocketSession[current count: 0]
+2026-02-14 02:26:15.754  INFO 841254 --- [scheduling-1] c.d.s.component.GlobalScheduleService    : Subscriptions: [sys/product/+/status, thing/product/+/requests]
+2026-02-14 02:26:18.417  INFO 841254 --- [SpringApplicationShutdownHook] .m.i.MqttPahoMessageDrivenChannelAdapter : stopped bean 'mqttInbound'; defined in: 'class path resource [com/dji/sdk/mqtt/MqttConfiguration.class]'; from source: 'com.dji.sdk.mqtt.MqttConfiguration.mqttInbound()'
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundDrcUp' channel
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUp' has 0 subscriber(s).
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'drcUpRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/drc/DrcUpRouter.class]'; from source: 'bean method drcUpRouterFlow'
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'drcUpRouterFlow.channel#0' channel
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.drcUpRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'drcUpRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/drc/DrcUpRouter.class]'; from source: 'bean method drcUpRouterFlow'
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundEvents' channel
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEvents' has 0 subscriber(s).
+2026-02-14 02:26:18.418  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'eventsMethodRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/events/EventsRouter.class]'; from source: 'bean method eventsMethodRouterFlow'
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'eventsMethodRouterFlow.channel#0' channel
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.eventsMethodRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'eventsMethodRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/events/EventsRouter.class]'; from source: 'bean method eventsMethodRouterFlow'
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator} as a subscriber to the 'outboundEvents' channel
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.outboundEvents' has 0 subscriber(s).
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'replySuccessEvents.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/events/EventsRouter.class]'; from source: 'bean method replySuccessEvents'
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundStatus' channel
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStatus' has 0 subscriber(s).
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'statusRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/status/StatusRouter.class]'; from source: 'bean method statusRouterFlow'
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'statusRouterFlow.channel#0' channel
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.statusRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'statusRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/status/StatusRouter.class]'; from source: 'bean method statusRouterFlow'
+2026-02-14 02:26:18.419  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator} as a subscriber to the 'outboundStatus' channel
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.outboundStatus' has 0 subscriber(s).
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'replySuccessStatus.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/status/StatusRouter.class]'; from source: 'bean method replySuccessStatus'
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] ProxyFactoryBean$MethodInvocationGateway : stopped bean 'IMqttMessageGateway#publish(String, byte[])'
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] ProxyFactoryBean$MethodInvocationGateway : stopped bean 'IMqttMessageGateway#publish(String, byte[], int)'
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.gateway.GatewayProxyFactoryBean    : stopped bean 'IMqttMessageGateway'
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundState' channel
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundState' has 0 subscriber(s).
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'stateDataRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/state/StateRouter.class]'; from source: 'bean method stateDataRouterFlow'
+2026-02-14 02:26:18.420  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'stateDataRouterFlow.channel#0' channel
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.stateDataRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'stateDataRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/state/StateRouter.class]'; from source: 'bean method stateDataRouterFlow'
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator} as a subscriber to the 'outboundState' channel
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.outboundState' has 0 subscriber(s).
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'replySuccessState.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/state/StateRouter.class]'; from source: 'bean method replySuccessState'
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundOsd' channel
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.ExecutorChannel  : Channel 'cloud-api-sample.inboundOsd' has 0 subscriber(s).
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'osdRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/osd/OsdRouter.class]'; from source: 'bean method osdRouterFlow'
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator} as a subscriber to the 'osdRouterFlow.channel#0' channel
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.osdRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'osdRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/osd/OsdRouter.class]'; from source: 'bean method osdRouterFlow'
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'osdRouterFlow.channel#1' channel
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.osdRouterFlow.channel#1' has 0 subscriber(s).
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'osdRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#2'; defined in: 'class path resource [com/dji/sdk/mqtt/osd/OsdRouter.class]'; from source: 'bean method osdRouterFlow'
+2026-02-14 02:26:18.421  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {transformer} as a subscriber to the 'inboundRequests' channel
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequests' has 0 subscriber(s).
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'requestsMethodRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/requests/RequestsRouter.class]'; from source: 'bean method requestsMethodRouterFlow'
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router} as a subscriber to the 'requestsMethodRouterFlow.channel#0' channel
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.requestsMethodRouterFlow.channel#0' has 0 subscriber(s).
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'requestsMethodRouterFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#1'; defined in: 'class path resource [com/dji/sdk/mqtt/requests/RequestsRouter.class]'; from source: 'bean method requestsMethodRouterFlow'
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator} as a subscriber to the 'outboundRequests' channel
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.outboundRequests' has 0 subscriber(s).
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'replyRequestsMethod.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/dji/sdk/mqtt/requests/RequestsRouter.class]'; from source: 'bean method replyRequestsMethod'
+2026-02-14 02:26:18.422  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'cloud-api-sample.errorChannel' has 0 subscriber(s).
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {message-handler:mqttConfiguration.mqttOutbound.serviceActivator} as a subscriber to the 'outbound' channel
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.outbound' has 0 subscriber(s).
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'mqttConfiguration.mqttOutbound.serviceActivator'
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {message-handler:mqttConfiguration.defaultInboundHandler.serviceActivator} as a subscriber to the 'default' channel
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.default' has 0 subscriber(s).
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'mqttConfiguration.defaultInboundHandler.serviceActivator'
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:deviceFirmwareServiceImpl.otaProgress.serviceActivator} as a subscriber to the 'inboundEventsOtaProgress' channel
+2026-02-14 02:26:18.423  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsOtaProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'deviceFirmwareServiceImpl.otaProgress.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.takeoffToPointProgress.serviceActivator} as a subscriber to the 'inboundEventsTakeoffToPointProgress' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsTakeoffToPointProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.takeoffToPointProgress.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.drcStatusNotify.serviceActivator} as a subscriber to the 'inboundEventsDrcStatusNotify' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsDrcStatusNotify' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.drcStatusNotify.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.joystickInvalidNotify.serviceActivator} as a subscriber to the 'inboundEventsJoystickInvalidNotify' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsJoystickInvalidNotify' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.joystickInvalidNotify.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.flyToPointProgress.serviceActivator} as a subscriber to the 'inboundEventsFlyToPointProgress' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlyToPointProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.flyToPointProgress.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.cameraPhotoTakeProgress.serviceActivator} as a subscriber to the 'inboundEventsCameraPhotoTakeProgress' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsCameraPhotoTakeProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.cameraPhotoTakeProgress.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.poiStatusNotify.serviceActivator} as a subscriber to the 'inboundEventsPoiStatusNotify' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsPoiStatusNotify' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.poiStatusNotify.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.droneControlUp.serviceActivator} as a subscriber to the 'inboundDrcUpDroneControl' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpDroneControl' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.droneControlUp.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.droneEmergencyStopUp.serviceActivator} as a subscriber to the 'inboundDrcUpDroneEmergencyStop' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpDroneEmergencyStop' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.droneEmergencyStopUp.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.heartBeatUp.serviceActivator} as a subscriber to the 'inboundDrcUpHeartBeat' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpHeartBeat' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.heartBeatUp.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.hsiInfoPush.serviceActivator} as a subscriber to the 'inboundDrcUpHsiInfoPush' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpHsiInfoPush' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.hsiInfoPush.serviceActivator'
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.delayInfoPush.serviceActivator} as a subscriber to the 'inboundDrcUpDelayInfoPush' channel
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpDelayInfoPush' has 0 subscriber(s).
+2026-02-14 02:26:18.424  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.delayInfoPush.serviceActivator'
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKControlService.osdInfoPush.serviceActivator} as a subscriber to the 'inboundDrcUpOsdInfoPush' channel
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundDrcUpOsdInfoPush' has 0 subscriber(s).
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKControlService.osdInfoPush.serviceActivator'
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKRemoteDebug.remoteDebugProgress.serviceActivator} as a subscriber to the 'inboundEventsControlProgress' channel
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsControlProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKRemoteDebug.remoteDebugProgress.serviceActivator'
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKWaylineService.flighttaskReady.serviceActivator} as a subscriber to the 'inboundEventsFlighttaskReady' channel
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlighttaskReady' has 1 subscriber(s).
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKWaylineService.flighttaskReady.serviceActivator'
+2026-02-14 02:26:18.425  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKWaylineService.flighttaskProgress.serviceActivator} as a subscriber to the 'inboundEventsFlighttaskProgress' channel
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlighttaskProgress' has 1 subscriber(s).
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKWaylineService.flighttaskProgress.serviceActivator'
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKWaylineService.deviceExitHomingNotify.serviceActivator} as a subscriber to the 'inboundEventsDeviceExitHomingNotify' channel
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsDeviceExitHomingNotify' has 1 subscriber(s).
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKWaylineService.deviceExitHomingNotify.serviceActivator'
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKWaylineService.flighttaskResourceGet.serviceActivator} as a subscriber to the 'inboundRequestsFlightTaskResourceGet' channel
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsFlightTaskResourceGet' has 1 subscriber(s).
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKWaylineService.flighttaskResourceGet.serviceActivator'
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKWaylineService.returnHomeInfo.serviceActivator} as a subscriber to the 'inboundEventsReturnHomeInfo' channel
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsReturnHomeInfo' has 1 subscriber(s).
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKWaylineService.returnHomeInfo.serviceActivator'
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:mediaServiceImpl.highestPriorityUploadFlightTaskMedia.serviceActivator} as a subscriber to the 'inboundEventsHighestPriorityUploadFlightTaskMedia' channel
+2026-02-14 02:26:18.442  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsHighestPriorityUploadFlightTaskMedia' has 1 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'mediaServiceImpl.highestPriorityUploadFlightTaskMedia.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:mediaServiceImpl.fileUploadCallback.serviceActivator} as a subscriber to the 'inboundEventsFileUploadCallback' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFileUploadCallback' has 1 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'mediaServiceImpl.fileUploadCallback.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:mediaServiceImpl.storageConfigGet.serviceActivator} as a subscriber to the 'inboundRequestsStorageConfigGet' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsStorageConfigGet' has 1 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'mediaServiceImpl.storageConfigGet.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightTaskServiceImpl.flighttaskReady.serviceActivator} as a subscriber to the 'inboundEventsFlighttaskReady' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlighttaskReady' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightTaskServiceImpl.flighttaskReady.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightTaskServiceImpl.flighttaskProgress.serviceActivator} as a subscriber to the 'inboundEventsFlighttaskProgress' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlighttaskProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightTaskServiceImpl.flighttaskProgress.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightTaskServiceImpl.deviceExitHomingNotify.serviceActivator} as a subscriber to the 'inboundEventsDeviceExitHomingNotify' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsDeviceExitHomingNotify' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightTaskServiceImpl.deviceExitHomingNotify.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightTaskServiceImpl.flighttaskResourceGet.serviceActivator} as a subscriber to the 'inboundRequestsFlightTaskResourceGet' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsFlightTaskResourceGet' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightTaskServiceImpl.flighttaskResourceGet.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightTaskServiceImpl.returnHomeInfo.serviceActivator} as a subscriber to the 'inboundEventsReturnHomeInfo' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsReturnHomeInfo' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightTaskServiceImpl.returnHomeInfo.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:deviceHmsServiceImpl.hms.serviceActivator} as a subscriber to the 'inboundEventsHms' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsHms' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'deviceHmsServiceImpl.hms.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:storageServiceImpl.highestPriorityUploadFlightTaskMedia.serviceActivator} as a subscriber to the 'inboundEventsHighestPriorityUploadFlightTaskMedia' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsHighestPriorityUploadFlightTaskMedia' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'storageServiceImpl.highestPriorityUploadFlightTaskMedia.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:storageServiceImpl.fileUploadCallback.serviceActivator} as a subscriber to the 'inboundEventsFileUploadCallback' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFileUploadCallback' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'storageServiceImpl.fileUploadCallback.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:storageServiceImpl.storageConfigGet.serviceActivator} as a subscriber to the 'inboundRequestsStorageConfigGet' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsStorageConfigGet' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'storageServiceImpl.storageConfigGet.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKLogService.fileuploadProgress.serviceActivator} as a subscriber to the 'inboundEventsFileUploadProgress' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFileUploadProgress' has 1 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKLogService.fileuploadProgress.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:deviceLogsServiceImpl.fileuploadProgress.serviceActivator} as a subscriber to the 'inboundEventsFileUploadProgress' channel
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFileUploadProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'deviceLogsServiceImpl.fileuploadProgress.serviceActivator'
+2026-02-14 02:26:18.443  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKLivestreamService.dockLivestreamAbilityUpdate.serviceActivator} as a subscriber to the 'inboundStateDockLiveCapacity' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockLiveCapacity' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKLivestreamService.dockLivestreamAbilityUpdate.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKLivestreamService.rcLivestreamAbilityUpdate.serviceActivator} as a subscriber to the 'inboundStateRcLiveCapacity' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateRcLiveCapacity' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKLivestreamService.rcLivestreamAbilityUpdate.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:requestConfigContext.requestsConfig.serviceActivator} as a subscriber to the 'inboundRequestsConfig' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsConfig' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'requestConfigContext.requestsConfig.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.updateTopoOnline.serviceActivator} as a subscriber to the 'inboundStatusOnline' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStatusOnline' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.updateTopoOnline.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockLiveStatusUpdate.serviceActivator} as a subscriber to the 'inboundStateDockLiveStatus' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockLiveStatus' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockLiveStatusUpdate.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.rcLiveStatusUpdate.serviceActivator} as a subscriber to the 'inboundStateRcLiveStatus' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateRcLiveStatus' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.rcLiveStatusUpdate.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockWpmzVersionUpdate.serviceActivator} as a subscriber to the 'inboundStateDockDroneWpmzVersion' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneWpmzVersion' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockWpmzVersionUpdate.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockThermalSupportedPaletteStyle.serviceActivator} as a subscriber to the 'inboundStateDockDronePayload' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDronePayload' has 0 subscriber(s).
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockThermalSupportedPaletteStyle.serviceActivator'
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneRthMode.serviceActivator} as a subscriber to the 'inboundStateDockDroneRthMode' channel
+2026-02-14 02:26:18.444  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneRthMode' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneRthMode.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneCurrentRthMode.serviceActivator} as a subscriber to the 'inboundStateDockDroneCurrentRthMode' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneCurrentRthMode' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneCurrentRthMode.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneCommanderModeLostAction.serviceActivator} as a subscriber to the 'inboundStateDockDroneCommanderModeLostAction' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneCommanderModeLostAction' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneCommanderModeLostAction.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneCurrentCommanderFlightMode.serviceActivator} as a subscriber to the 'inboundStateDockDroneCurrentCommanderFlightMode' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneCurrentCommanderFlightMode' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneCurrentCommanderFlightMode.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneCommanderFlightHeight.serviceActivator} as a subscriber to the 'inboundStateDockDroneCommanderFlightHeight' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneCommanderFlightHeight' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneCommanderFlightHeight.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockDroneModeCodeReason.serviceActivator} as a subscriber to the 'inboundStateDockDroneModeCodeReason' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockDroneModeCodeReason' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockDroneModeCodeReason.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dongleInfos.serviceActivator} as a subscriber to the 'inboundStateDockAndDroneDongleInfos' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockAndDroneDongleInfos' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dongleInfos.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockFirmwareVersionUpdate.serviceActivator} as a subscriber to the 'inboundStateDockFirmwareVersion' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockFirmwareVersion' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockFirmwareVersionUpdate.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.rcAndDroneFirmwareVersionUpdate.serviceActivator} as a subscriber to the 'inboundStateRcAndDroneFirmwareVersion' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateRcAndDroneFirmwareVersion' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.rcAndDroneFirmwareVersionUpdate.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.rcPayloadFirmwareVersionUpdate.serviceActivator} as a subscriber to the 'inboundStateRcPayloadFirmware' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateRcPayloadFirmware' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.rcPayloadFirmwareVersionUpdate.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockControlSourceUpdate.serviceActivator} as a subscriber to the 'inboundStateDockControlSource' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockControlSource' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockControlSourceUpdate.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.rcControlSourceUpdate.serviceActivator} as a subscriber to the 'inboundStateRcControlSource' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateRcControlSource' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.rcControlSourceUpdate.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.updateTopoOffline.serviceActivator} as a subscriber to the 'inboundStatusOffline' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStatusOffline' has 0 subscriber(s).
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.updateTopoOffline.serviceActivator'
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.osdDock.serviceActivator} as a subscriber to the 'inboundOsdDock' channel
+2026-02-14 02:26:18.445  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundOsdDock' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.osdDock.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.osdDockDrone.serviceActivator} as a subscriber to the 'inboundOsdDockDrone' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundOsdDockDrone' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.osdDockDrone.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.osdRemoteControl.serviceActivator} as a subscriber to the 'inboundOsdRc' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundOsdRc' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.osdRemoteControl.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.osdRcDrone.serviceActivator} as a subscriber to the 'inboundOsdRcDrone' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundOsdRcDrone' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.osdRcDrone.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKDeviceService.dockSilentMode.serviceActivator} as a subscriber to the 'inboundStateDockSilentMode' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundStateDockSilentMode' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKDeviceService.dockSilentMode.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKOrganizationService.airportBindStatus.serviceActivator} as a subscriber to the 'inboundRequestsAirportBindStatus' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsAirportBindStatus' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKOrganizationService.airportBindStatus.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKOrganizationService.airportOrganizationGet.serviceActivator} as a subscriber to the 'inboundRequestsAirportOrganizationGet' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsAirportOrganizationGet' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKOrganizationService.airportOrganizationGet.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKOrganizationService.airportOrganizationBind.serviceActivator} as a subscriber to the 'inboundRequestsAirportOrganizationBind' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsAirportOrganizationBind' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKOrganizationService.airportOrganizationBind.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKFlightAreaService.flightAreasSyncProgress.serviceActivator} as a subscriber to the 'inboundEventsFlightAreasSyncProgress' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlightAreasSyncProgress' has 1 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKFlightAreaService.flightAreasSyncProgress.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKFlightAreaService.flightAreasDroneLocation.serviceActivator} as a subscriber to the 'inboundEventsFlightAreasDroneLocation' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlightAreasDroneLocation' has 1 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKFlightAreaService.flightAreasDroneLocation.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:SDKFlightAreaService.flightAreasGet.serviceActivator} as a subscriber to the 'inboundRequestsFlightAreasGet' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsFlightAreasGet' has 1 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'SDKFlightAreaService.flightAreasGet.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightAreaServiceImpl.flightAreasSyncProgress.serviceActivator} as a subscriber to the 'inboundEventsFlightAreasSyncProgress' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlightAreasSyncProgress' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightAreaServiceImpl.flightAreasSyncProgress.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightAreaServiceImpl.flightAreasDroneLocation.serviceActivator} as a subscriber to the 'inboundEventsFlightAreasDroneLocation' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundEventsFlightAreasDroneLocation' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightAreaServiceImpl.flightAreasDroneLocation.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:flightAreaServiceImpl.flightAreasGet.serviceActivator} as a subscriber to the 'inboundRequestsFlightAreasGet' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundRequestsFlightAreasGet' has 0 subscriber(s).
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'flightAreaServiceImpl.flightAreasGet.serviceActivator'
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:servicesReplyHandler.servicesReply.serviceActivator} as a subscriber to the 'inboundServicesReply' channel
+2026-02-14 02:26:18.446  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundServicesReply' has 0 subscriber(s).
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'servicesReplyHandler.servicesReply.serviceActivator'
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {service-activator:propertySetReplyHandler.propertySetReply.serviceActivator} as a subscriber to the 'inboundPropertySetReply' channel
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.DirectChannel    : Channel 'cloud-api-sample.inboundPropertySetReply' has 0 subscriber(s).
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'propertySetReplyHandler.propertySetReply.serviceActivator'
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {router:inboundMessageRouter.determineTargetChannels.router} as a subscriber to the 'inbound' channel
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.integration.channel.ExecutorChannel  : Channel 'cloud-api-sample.inbound' has 0 subscriber(s).
+2026-02-14 02:26:18.447  INFO 841254 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean 'inboundMessageRouter.determineTargetChannels.router'
+2026-02-14 02:26:18.583  INFO 841254 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2026-02-14 02:26:18.587  INFO 841254 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

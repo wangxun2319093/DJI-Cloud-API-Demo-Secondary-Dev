@@ -149,7 +149,12 @@ public class SDKDeviceService extends AbstractDeviceService {
             log.error("Please bind the dock first.");
         }
         if (StringUtils.hasText(device.getChildDeviceSn())) {
-            deviceService.getDeviceBySn(device.getChildDeviceSn()).ifPresent(device::setChildren);
+            Optional<DeviceDTO> childOpt = deviceService.getDeviceBySn(device.getChildDeviceSn());
+            childOpt.ifPresent(child -> {
+                child.setParentSn(device.getDeviceSn());
+                deviceRedisService.setDeviceOnline(child);
+                device.setChildren(child);
+            });
         }
 
         deviceRedisService.setDeviceOnline(device);
@@ -170,11 +175,19 @@ public class SDKDeviceService extends AbstractDeviceService {
             }
         }
 
-        if (!StringUtils.hasText(deviceOpt.get().getWorkspaceId())) {
+        DeviceDTO device = deviceOpt.get();
+        if (!StringUtils.hasText(device.getWorkspaceId())) {
             log.error("Please restart the drone.");
         }
 
-        DeviceDTO device = deviceOpt.get();
+        if (!StringUtils.hasText(device.getParentSn())) {
+            List<DeviceDTO> parentList = deviceService.getDevicesByParams(
+                    DeviceQueryParam.builder().childSn(from).build());
+            if (!parentList.isEmpty()) {
+                device.setParentSn(parentList.get(0).getDeviceSn());
+            }
+        }
+
         deviceRedisService.setDeviceOnline(device);
         deviceRedisService.setDeviceOsd(from, request.getData());
 
@@ -479,9 +492,6 @@ public class SDKDeviceService extends AbstractDeviceService {
 
     private void fillDockOsd(String dockSn, OsdDock dock) {
         Optional<OsdDock> oldDockOpt = deviceRedisService.getDeviceOsd(dockSn, OsdDock.class);
-        if (Objects.nonNull(dock.getJobNumber())) {
-            return;
-        }
         if (oldDockOpt.isEmpty()) {
             deviceRedisService.setDeviceOsd(dockSn, dock);
             return;
@@ -489,12 +499,7 @@ public class SDKDeviceService extends AbstractDeviceService {
         OsdDock oldDock = oldDockOpt.get();
         if (Objects.nonNull(dock.getModeCode())) {
             dock.setDrcState(oldDock.getDrcState());
-            deviceRedisService.setDeviceOsd(dockSn, dock);
-            return;
         }
-        if (Objects.nonNull(dock.getDrcState()) ) {
-            oldDock.setDrcState(dock.getDrcState());
-            deviceRedisService.setDeviceOsd(dockSn, oldDock);
-        }
+        deviceRedisService.setDeviceOsd(dockSn, dock);
     }
 }
